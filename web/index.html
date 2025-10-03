@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Doctor's Smart Storage — Web</title>
+    <link rel="stylesheet" href="/static/styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="brand">🏥 Doctor's Smart Storage</div>
+      <nav class="nav">
+        <a href="#patients" id="nav-patients">👥 Patients</a>
+        <a href="#billing" id="nav-billing">💰 Billing</a>
+        <a href="#analysis" id="nav-analysis">📊 Analysis</a>
+      </nav>
+    </header>
+
+    <main class="container">
+      <section id="view" class="view"></section>
+    </main>
+
+    <footer class="footer">
+      <div>Made for clinics — fast and simple</div>
+      <div>Backend API: <a href="/docs" target="_blank">📚 API Docs</a></div>
+    </footer>
+
+    <script src="/static/api.js"></script>
+    <script src="/static/app.js"></script>
+  </body>
+</html>
